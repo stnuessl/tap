@@ -1,0 +1,14 @@
+[package]
+name = "tap"
+version = "0.0.1"
+
+# [build-dependencies]
+# serde_codegen = "*"
+# syntex = "*"
+
+[dependencies]
+time = "*"
+rustc-serialize = "*"
+# argparse = "*"
+# serde = "*"
+# serde_macros = "*"

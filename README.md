@@ -1,13 +1,18 @@
 # tap - task planer
 
-## Compiling
+## Installation
+
+You will need the following tools to compile and install __tap__:
 
 * make
 * rustc
 * cargo
 
+The following commands will compile and install __tap__ on your system:
+
 ```
     $ make
+    $ su -c 'make install'
 ```
 
 ## Usage
@@ -51,6 +56,7 @@ example would be:
 
 ```
     $ tap complete [index01] [index02] ...
+    $ tap complete --all
 ```
 
 ### Remove tasks

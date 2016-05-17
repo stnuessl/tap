@@ -1,5 +1,8 @@
 # tap - task planer
 
+Very simple commandline task planer I wrote to get familiar with 
+[rust](https://www.rust-lang.org/).
+
 ## Installation
 
 You will need the following tools to compile and install __tap__:

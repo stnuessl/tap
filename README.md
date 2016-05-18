@@ -20,6 +20,22 @@ The following commands will compile and install __tap__ on your system:
 
 ## Usage
 
+### Specifiy a task file
+
+__tap__ needs a file location where it can store the tasks. You can specify
+one by using:
+
+```
+    $ tap file [path]
+```
+Example:
+```
+    $ tap file /tmp/todo
+```
+
+__tap__ caches this path for consecutive invocations and can be changed 
+at any point.
+
 ### Add tasks
 
 ```
